@@ -30,7 +30,7 @@ int ArraySum(int[] array)
 {
     int SumArray = 0;
 
-    for (int i = 0; i < array.Length; i += 2)
+    for (int i = 1; i < array.Length; i += 2)
     {
         SumArray += array[i];
     }
